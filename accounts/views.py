@@ -9,7 +9,7 @@ def login_user(request):
     return render(request, template_name='accounts/login-page.html')
 
 
-def profile_details(request, pk):
+def profile_details(request, pk=1):
     return render(request, template_name='accounts/profile-details-page.html')
 
 
